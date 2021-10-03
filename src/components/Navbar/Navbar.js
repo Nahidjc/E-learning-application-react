@@ -15,7 +15,8 @@ import AccountCircle from '@mui/icons-material/AccountCircle';
 import MailIcon from '@mui/icons-material/Mail';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import MoreIcon from '@mui/icons-material/MoreVert';
-
+import { Link } from 'react-router-dom';
+import img from '../../images/logo.png'
 const Search = styled('div')(({ theme }) => ({
     position: 'relative',
     borderRadius: theme.shape.borderRadius,
@@ -173,7 +174,11 @@ export default function PrimarySearchAppBar() {
                         component="div"
                         sx={{ display: { xs: 'none', sm: 'block' } }}
                     >
-                        MUI
+                        <img
+                            src={img}
+                            alt="logo"
+                            style={{ 'height': '25px', 'width': '100px' }}
+                        />
                     </Typography>
                     <Search>
                         <SearchIconWrapper>
@@ -184,6 +189,21 @@ export default function PrimarySearchAppBar() {
                             inputProps={{ 'aria-label': 'search' }}
                         />
                     </Search>
+                    <Link to='/'>
+                        <h6 className="text-white me-2">
+                            HOME
+                        </h6>
+                    </Link>
+                    <Link to='/about'>
+                        <h6 className="text-white me-2">
+                            ABOUT
+                        </h6>
+                    </Link>
+                    <Link to='/service'>
+                        <h6 className="text-white">
+                            SERVICE
+                        </h6>
+                    </Link>
 
                     <Box sx={{ flexGrow: 1 }} />
                     <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
