@@ -17,9 +17,7 @@ const Courses = () => {
     return (
         <div className="container mb-5">
             <h5 className="text-center">Featured Courses</h5>
-            <h6>
-                <Link to='/all-courses'>All Courses</Link>
-            </h6>
+
             <div className="row">
 
                 {
@@ -29,7 +27,7 @@ const Courses = () => {
 
             </div>
 
-
+            <Link to='/all-courses'>All Courses</Link>
         </div>
     );
 };

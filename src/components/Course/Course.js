@@ -7,12 +7,13 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import './styles.css'
 import { Link } from 'react-router-dom';
+import Rating from 'react-rating';
 const Course = (props) => {
     console.log(props.course);
-    const { id, img, courseName, details, InstructorImg, instructor } = props.course;
+    const { id, star, img, courseName, details, InstructorImg, instructor } = props.course;
     return (
         <div className="my-2 col-md-3">
-            <Card sx={{ maxWidth: 345 }} style={{ 'height': '400px' }}>
+            <Card sx={{ maxWidth: 345 }} style={{ 'height': '450px' }}>
                 <CardMedia
                     component="img"
                     alt="green iguana"
@@ -34,13 +35,20 @@ const Course = (props) => {
                         <Link>Learn More</Link>
                     </Button>
                 </CardActions>
-                <div className="card-bottom">
-                    <div className="p-3 d-flex " style={{ 'justifyContent': 'between' }} >
+                <div className="">
+                    <div className="p-3 d-flex justify-content-between">
                         <div >
                             <div className="d-flex">
                                 <img src={InstructorImg} alt="" style={{ 'height': '25px', 'width': '25px', 'borderRadius': '50%' }} />
                                 <small className='my-auto ms-2'> {instructor}</small>
                             </div>
+                        </div>
+                        <div className="ms-2">
+                            <Rating
+                                initialRating={star}
+                                emptySymbol="far fa-star icon-color"
+                                fullSymbol="fas fa-star icon-color"
+                                readonly></Rating>
                         </div>
 
                     </div>
