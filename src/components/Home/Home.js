@@ -1,4 +1,5 @@
 import React from 'react';
+import Contact from '../Contact/Contact';
 import Courses from '../Courses/Courses';
 import LandPage from '../LandPage/LandPage';
 
@@ -8,6 +9,8 @@ const Home = () => {
             <LandPage></LandPage>
             <br />
             <Courses></Courses>
+            <br />
+            <Contact></Contact>
         </div>
     );
 };

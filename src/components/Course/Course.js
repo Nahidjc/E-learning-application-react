@@ -38,12 +38,10 @@ const Course = (props) => {
                         <div >
                             <div className="d-flex">
                                 <img src={InstructorImg} alt="" style={{ 'height': '25px', 'width': '25px', 'borderRadius': '50%' }} />
-                                <small className='ms-1'> {instructor}</small>
+                                <small className='my-auto ms-2'> {instructor}</small>
                             </div>
                         </div>
-                        <div >
-                            <small>Lecture</small>
-                        </div>
+
                     </div>
                 </div>
 

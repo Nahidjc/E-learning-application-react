@@ -3,21 +3,21 @@ import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 import { Link } from "react-router-dom";
 
 const FooterPage = () => {
+    const decorationNone = { 'textDecoration': 'none' }
     return (
         <MDBFooter color="blue" className="pt-4 mt-4 font-small">
             <MDBContainer fluid className="text-center text-md-left">
                 <MDBRow>
                     <MDBCol md="6">
-                        <h5 className="title">Footer Content</h5>
+                        <h5 className="title">Learn Up Content</h5>
                         <p>
-                            Here you can use rows and columns here to organize your footer
-                            content.
+                            Education is the passport to the future, for tomorrow belongs to those who prepare for it today
                         </p>
                     </MDBCol>
                     <MDBCol md="6">
-                        <h5 className="title">Links</h5>
+
                         <ul>
-                            <li className="list-unstyled">
+                            <li className="list-unstyled" >
                                 <Link to="/home">Home</Link>
                             </li>
                             <li className="list-unstyled">

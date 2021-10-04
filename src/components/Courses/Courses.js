@@ -15,7 +15,7 @@ const Courses = () => {
     }, [])
     return (
         <div className="container mb-5">
-            <h5>Featured Courses</h5>
+            <h5 className="text-center">Featured Courses</h5>
             <div className="row">
 
                 {
