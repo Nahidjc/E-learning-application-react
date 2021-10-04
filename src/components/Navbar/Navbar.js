@@ -199,9 +199,20 @@ export default function PrimarySearchAppBar() {
                             ABOUT
                         </h6>
                     </Link>
-                    <Link to='/service'>
-                        <h6 className="text-white">
+                    {/* <Link to='/service'>
+                        <h6 className="text-white me-2">
                             SERVICE
+                        </h6>
+                    </Link> */}
+
+                    <Link to='/all-courses'>
+                        <h6 className="text-white me-2">
+                            All COURSES
+                        </h6>
+                    </Link>
+                    <Link to='/contact'>
+                        <h6 className="text-white ">
+                            CONTACT
                         </h6>
                     </Link>
 

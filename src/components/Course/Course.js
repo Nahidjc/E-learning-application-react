@@ -6,8 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import './styles.css'
-
-
+import { Link } from 'react-router-dom';
 const Course = (props) => {
     console.log(props.course);
     const { id, img, courseName, details, InstructorImg, instructor } = props.course;
@@ -30,8 +29,10 @@ const Course = (props) => {
                     </Typography>
                 </CardContent>
                 <CardActions>
-                    <Button size="small">Share</Button>
-                    <Button size="small">Learn More</Button>
+                    <Button variant="contained" sx={{ mr: 5 }}>Enroll</Button>
+                    <Button size="small">
+                        <Link>Learn More</Link>
+                    </Button>
                 </CardActions>
                 <div className="card-bottom">
                     <div className="p-3 d-flex " style={{ 'justifyContent': 'between' }} >

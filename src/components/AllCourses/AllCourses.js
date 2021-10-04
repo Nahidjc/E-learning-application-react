@@ -1,25 +1,20 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 import Course from '../Course/Course';
 
-const Courses = () => {
+
+const AllCourses = () => {
     const [courses, setCourses] = useState([])
     useEffect(() => {
         fetch('./courses.json')
             .then(res => res.json())
             .then(data => {
-
-                const items = data.slice(0, 8)
-                setCourses(items)
+                setCourses(data)
             })
 
     }, [])
     return (
         <div className="container mb-5">
-            <h5 className="text-center">Featured Courses</h5>
-            <h6>
-                <Link to='/all-courses'>All Courses</Link>
-            </h6>
+            <h5 className="my-4 text-center">All Courses</h5>
             <div className="row">
 
                 {
@@ -29,9 +24,8 @@ const Courses = () => {
 
             </div>
 
-
         </div>
     );
 };
 
-export default Courses;
+export default AllCourses;
