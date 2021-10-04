@@ -23,7 +23,7 @@
         "Lesson": 22,
         "price": 60,
         "InstructorImg": "https://scontent.fdac129-1.fna.fbcdn.net/v/t1.6435-9/218355656_2907353449594514_8891674803584140107_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeH32DKS1H3vpMYLDVCHix65jhyqGXzoJSCOHKoZfOglIL9G9j1T-vWDYmej5RSWiiIET0qCV4_xNgqTGLUABwpT&_nc_ohc=8tEF_01lXX4AX9-jlGT&_nc_ht=scontent.fdac129-1.fna&oh=ff0e51dc57733b30d028a127b233e16a&oe=618102B2",
-        "img": "https://learnup.smartdemowp.com/wp-content/uploads/2021/06/course-2-500x300.jpg"
+        "img": "https://thumbs.dreamstime.com/b/big-data-center-analyzes-data-science-background-presentation-big-data-center-analyzes-data-science-background-159196598.jpg"
     },
     {
         "id": 3,
@@ -36,7 +36,7 @@
         "Lesson": 22,
         "price": 60,
         "InstructorImg": "https://scontent.fdac129-1.fna.fbcdn.net/v/t1.6435-9/158690633_558716215107581_87225595738333246_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeH_bCTqEfi0kNvIiGZeeJ1bmx_YqiAYsPibH9iqIBiw-MrkPUWdUlkElcICAEGyvTLXPZqDmi7vImfBs0W4w9aJ&_nc_ohc=xVaVmj8i-uEAX8JUc3p&tn=LDIt0_IqIKMwIKbj&_nc_ht=scontent.fdac129-1.fna&oh=3bac76915ed397d53fb25e12194efc68&oe=617F1171",
-        "img": "https://learnup.smartdemowp.com/wp-content/uploads/2021/06/course-2-500x300.jpg"
+        "img": "https://mangools.com/blog/wp-content/uploads/2019/07/learn-seo-new-t.png"
     },
     {
         "id": 4,
@@ -79,15 +79,15 @@
     },
     {
         "id": 7,
-        "courseName": "",
+        "courseName": "Digital Marketing",
         "star": 4.5,
         "Lesson": 62,
-        "img": "",
-        "details": "tasnim@gmail.com",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Digital_marketing_1.webp",
+        "details": "Digital marketing, also called online marketing, is the promotion of brands to connect with potential customers using the internet and other forms of digital communication. This includes not only email, social media, and web-based advertising, but also text and multimedia messages as a marketing channe",
         "instructor": "Tasnim Ahmed",
-        "overview": "Software Engineer",
+        "overview": "Digital marketing and inbound marketing are easily confused, and for good reason. Digital marketing uses many of the same tools as inbound marketing—email and online content, to name a few. Both exist to capture the attention of prospects through the buyer’s journey and turn them into customers. But the 2 approaches take different views of the relationship between the tool and the goal.The most important thing to remember about digital marketing and inbound marketing is that as a marketing professional, you don’t have to choose between the 2. In fact, they work best together. Inbound marketing provides structure and purpose for effective digital marketing to digital marketing efforts, making sure that each digital marketing channel works toward a goal.",
         "durations": 35,
-        "price": "2 years",
+        "price": 50,
         "InstructorImg": "https://scontent.fdac129-1.fna.fbcdn.net/v/t1.6435-9/84357718_2505482899668129_4111186276764352512_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeFwF0OC778KCJk_0ug074IFMYwhBF7dcvYxjCEEXt1y9oeJVwb9qmjEcj9cznwQNFebmoDRvKBZWfbhWgys4icc&_nc_ohc=h75X4M-lUcIAX9tklga&_nc_ht=scontent.fdac129-1.fna&oh=347a93ffdd430a0f567c7ead51fed288&oe=61757B8C"
     },
     {
