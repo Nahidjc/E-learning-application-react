@@ -8,6 +8,7 @@ import {
   Route,
 
 } from "react-router-dom";
+import NotFound from './components/NotFound/NotFound';
 function App() {
   return (
     <div >
@@ -16,6 +17,9 @@ function App() {
         <Switch>
           <Route exact path="/" >
             <Home></Home>
+          </Route>
+          <Route path="*" >
+            <NotFound></NotFound>
           </Route>
         </Switch>
       </BrowserRouter>
