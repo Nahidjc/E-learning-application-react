@@ -1,9 +1,10 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import { Link } from "react-router-dom";
 
 const FooterPage = () => {
     return (
-        <MDBFooter color="blue" className="font-small pt-4 mt-4">
+        <MDBFooter color="blue" className="pt-4 mt-4 font-small">
             <MDBContainer fluid className="text-center text-md-left">
                 <MDBRow>
                     <MDBCol md="6">
@@ -17,24 +18,24 @@ const FooterPage = () => {
                         <h5 className="title">Links</h5>
                         <ul>
                             <li className="list-unstyled">
-                                <a href="#!">Link 1</a>
+                                <Link to="/home">Home</Link>
                             </li>
                             <li className="list-unstyled">
-                                <a href="#!">Link 2</a>
+                                <Link to='/about'>About</Link>
                             </li>
                             <li className="list-unstyled">
-                                <a href="#!">Link 3</a>
+                                <Link to='Courses'>Courses</Link>
                             </li>
                             <li className="list-unstyled">
-                                <a href="#!">Link 4</a>
+                                <Link to='Contact'>Contact</Link>
                             </li>
                         </ul>
                     </MDBCol>
                 </MDBRow>
             </MDBContainer>
-            <div className="footer-copyright text-center py-3">
+            <div className="py-3 text-center footer-copyright">
                 <MDBContainer fluid>
-                    &copy; {new Date().getFullYear()} Copyright: <a href="https://www.mdbootstrap.com"> MDBootstrap.com </a>
+                    &copy; {new Date().getFullYear()} Copyright: <a style={{ 'textDecoration': 'none' }} href="https://nahidjc.xyz">Learn Up with Nahid </a>
                 </MDBContainer>
             </div>
         </MDBFooter>

@@ -9,6 +9,7 @@ import {
 
 } from "react-router-dom";
 import NotFound from './components/NotFound/NotFound';
+import FooterPage from './components/FooterPage/FooterPage';
 function App() {
   return (
     <div >
@@ -22,6 +23,7 @@ function App() {
             <NotFound></NotFound>
           </Route>
         </Switch>
+        <FooterPage></FooterPage>
       </BrowserRouter>
 
 
