@@ -1,6 +1,5 @@
 import { useParams } from "react-router-dom";
 import React, { useEffect, useState } from 'react';
-import ModalVideo from 'react-modal-video'
 import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
@@ -12,6 +11,7 @@ import QuizIcon from '@mui/icons-material/Quiz';
 import Rating from 'react-rating';
 import Button from '@mui/material/Button';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
+import Overview from "../Overview/Overview";
 const CourseDetails = () => {
     const { id } = useParams();
 
@@ -40,7 +40,6 @@ const CourseDetails = () => {
     console.log(find);
 
 
-    const [isOpen, setOpen] = useState(false)
 
     const Img = styled('img')({
         margin: 'auto',
@@ -104,6 +103,7 @@ const CourseDetails = () => {
                     </Grid>
                 </Grid>
             </Paper>
+            <Overview find={find}></Overview>
         </div>
     );
 };
