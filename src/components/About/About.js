@@ -2,6 +2,7 @@ import React from 'react';
 import img from '../../images/about.png'
 import './prac.css'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import Mentor from '../Mentor/Mentor';
 const About = () => {
     return (
         <div className="container">
@@ -13,7 +14,7 @@ const About = () => {
                 <div className="col-lg-6 col-md-6 col-md-12 col-sm-12">
                     <div className="list_facts_wrap">
                         <div className="sec-heading mb-3">
-                            <h2>Know about <span className="theme-cl">e-Learn</span> learning platform</h2>
+                            <h2>Know about <span className="theme-cl">E-Learn</span> learning platform</h2>
                         </div>
                         <div className="list_facts">
                             <div className="list_facts_icons"><i aria-hidden="true" className="fas fa-dharmachakra"></i></div>
@@ -44,10 +45,11 @@ const About = () => {
                 </div>
                 <div className="col-lg-6 col-md-6 col-md-12 col-sm-12">
                     <div className="list_facts_wrap_img">
-                        <img height="555" src="https://learnup.smartdemowp.com/wp-content/uploads/2021/05/edu_2.png" className="attachment-full img-fluid size-full" alt="" loading="lazy" /> </div>
+                        <img height="555" src={img} className="attachment-full img-fluid size-full" alt="" loading="lazy" /> </div>
                 </div>
             </div>
-
+            <br />
+            <Mentor></Mentor>
         </div>
     );
 };

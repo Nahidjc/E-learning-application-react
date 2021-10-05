@@ -1,0 +1,48 @@
+.sec-heading {
+    margin-bottom: 2rem;
+}
+
+.sec-heading.lg {
+    margin-bottom: 30px;
+}
+
+.sec-heading.center {
+    text-align: center;
+}
+
+.sec-heading h2,
+.sec-heading p {
+    margin-bottom: 5px;
+}
+
+.sec-heading.light h2,
+.sec-heading.light p {
+    color: #ffffff;
+}
+
+.color-heading .sec-heading h2 {
+    color: #D70040;
+}
+
+.sec-heading p {
+    margin-bottom: 0;
+    line-height: 1.2;
+}
+
+.sec-heading-flex {
+    display: flex;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    align-items: center;
+    position: relative;
+}
+
+.sec-heading-flex-one {
+    flex: 1;
+}
+
+.sec-heading-flex-one h2 {
+    margin-bottom: 0;
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+}

@@ -4,7 +4,7 @@ import useCourse from '../hooks/useCourse';
 
 
 const AllCourses = () => {
-    const [courses, setCourses] = useCourse([])
+    const [courses] = useCourse([])
 
     // useEffect(() => {
     //     fetch('./courses.json')
