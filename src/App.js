@@ -12,6 +12,7 @@ import NotFound from './components/NotFound/NotFound';
 import FooterPage from './components/FooterPage/FooterPage';
 import Contact from './components/Contact/Contact';
 import AllCourses from './components/AllCourses/AllCourses';
+import CourseDetails from './components/CourseDetails/CourseDetails';
 function App() {
   return (
     <div >
@@ -29,6 +30,9 @@ function App() {
           </Route>
           <Route path="/contact" >
             <Contact></Contact>
+          </Route>
+          <Route path="/course-details/:id">
+            <CourseDetails></CourseDetails>
           </Route>
           <Route path="*" >
             <NotFound></NotFound>

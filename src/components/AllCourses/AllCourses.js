@@ -1,17 +1,19 @@
 import React, { useEffect, useState } from 'react';
 import Course from '../Course/Course';
+import useCourse from '../hooks/useCourse';
 
 
 const AllCourses = () => {
-    const [courses, setCourses] = useState([])
-    useEffect(() => {
-        fetch('./courses.json')
-            .then(res => res.json())
-            .then(data => {
-                setCourses(data)
-            })
+    const [courses, setCourses] = useCourse([])
 
-    }, [])
+    // useEffect(() => {
+    //     fetch('./courses.json')
+    //         .then(res => res.json())
+    //         .then(data => {
+    //             setCourses(data)
+    //         })
+
+    // }, [])
     return (
         <div className="container mb-5">
             <h5 className="my-4 text-center">All Courses</h5>

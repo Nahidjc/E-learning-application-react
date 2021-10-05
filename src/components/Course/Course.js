@@ -9,7 +9,7 @@ import './styles.css'
 import { Link } from 'react-router-dom';
 import Rating from 'react-rating';
 const Course = (props) => {
-    console.log(props.course);
+
     const { id, star, img, courseName, details, InstructorImg, instructor } = props.course;
     return (
         <div className="my-2 col-md-3">
@@ -32,7 +32,7 @@ const Course = (props) => {
                 <CardActions>
                     <Button variant="contained" sx={{ mr: 5 }}>Enroll</Button>
                     <Button size="small">
-                        <Link>Learn More</Link>
+                        <Link to={`/course-details/${id}`}>Learn More</Link>
                     </Button>
                 </CardActions>
                 <div className="">

@@ -3,7 +3,7 @@ import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 import { Link } from "react-router-dom";
 
 const FooterPage = () => {
-    const decorationNone = { 'textDecoration': 'none' }
+
     return (
         <MDBFooter color="blue" className="pt-4 mt-4 font-small">
             <MDBContainer fluid className="text-center text-md-left">
