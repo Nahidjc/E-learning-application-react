@@ -9,6 +9,9 @@ import ButtonBase from '@mui/material/ButtonBase';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import PersonIcon from '@mui/icons-material/Person';
 import QuizIcon from '@mui/icons-material/Quiz';
+import Rating from 'react-rating';
+import Button from '@mui/material/Button';
+import AccessTimeIcon from '@mui/icons-material/AccessTime';
 const CourseDetails = () => {
     const { id } = useParams();
 
@@ -66,6 +69,9 @@ const CourseDetails = () => {
                                         <p className='me-4'><PlayArrowIcon></PlayArrowIcon> {find.Lesson} lessons </p>
                                         <p className='me-4'><QuizIcon></QuizIcon> 10 quiz</p>
                                         <p className='me-4'><PersonIcon></PersonIcon> 17 Students Enrolled</p>
+                                        <p>
+                                            <AccessTimeIcon></AccessTimeIcon> {find.durations} Hours
+                                        </p>
                                     </div>
 
                                 </Typography>
@@ -73,12 +79,20 @@ const CourseDetails = () => {
                                     {find.details}
                                 </Typography>
                                 <Typography variant="body2" color="text.secondary">
-                                    ID: 1030114
+                                    <div >
+                                        Review
+                                        <Rating
+                                            className="ms-2"
+                                            initialRating={find.star}
+                                            emptySymbol="far fa-star icon-color"
+                                            fullSymbol="fas fa-star icon-color"
+                                            readonly></Rating>
+                                    </div>
                                 </Typography>
                             </Grid>
                             <Grid item>
                                 <Typography sx={{ cursor: 'pointer' }} variant="body2">
-                                    Remove
+                                    <Button color="error" variant="contained">Enroll</Button>
                                 </Typography>
                             </Grid>
                         </Grid>
