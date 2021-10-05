@@ -13,6 +13,7 @@ import FooterPage from './components/FooterPage/FooterPage';
 import Contact from './components/Contact/Contact';
 import AllCourses from './components/AllCourses/AllCourses';
 import CourseDetails from './components/CourseDetails/CourseDetails';
+import About from './components/About/About';
 function App() {
   return (
     <div >
@@ -27,6 +28,9 @@ function App() {
           </Route>
           <Route path="/all-courses" >
             <AllCourses></AllCourses>
+          </Route>
+          <Route path="/about" >
+            <About></About>
           </Route>
           <Route path="/contact" >
             <Contact></Contact>

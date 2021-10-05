@@ -1,0 +1,164 @@
+.list_facts_wrap {
+    margin: 0;
+    display: block;
+    width: 100%;
+    max-width: 80%;
+}
+
+.list_facts {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.list_facts_icons {
+    width: 45px;
+    height: 45px;
+    background: #d90b4e;
+    box-shadow: 0 7px 15px rgba(0, 22, 84, 0.1);
+    -webkit-box-shadow: 0 7px 15px rgba(0, 22, 84, 0.1);
+    border-radius: 6px;
+    margin-right: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #fff;
+}
+
+.green .list_facts_icons {
+    background: rgba(0, 186, 116, 0.1);
+    color: #00ba74;
+}
+
+.list_facts_caption h4 {
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.list_facts_caption p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.btn.btn-modern {
+    background: #da0b4e;
+    transition: all ease 0.4s;
+    color: #fff;
+    border-radius: 6px;
+    border: 1px solid #da0b4e;
+    height: 54px;
+    padding: 0 5px 0 25px;
+    display: flex;
+    width: max-content;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn.btn-modern span {
+    height: 44px;
+    padding: 0 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease 0.4s;
+    position: relative;
+    background: #ffffff;
+    border-radius: 4px;
+    color: #da0b4e;
+    margin-left: 20px;
+}
+
+.btn.btn-modern:hover,
+.btn.btn-modern:focus {
+    background: #ffffff;
+    color: #da0b4e;
+    border: 1px solid #da0b4e;
+}
+
+.btn.btn-modern:hover span,
+.btn.btn-modern:focus span {
+    background: #da0b4e;
+    color: #ffffff;
+}
+
+/*---------- Black Color -------------*/
+.btn.btn-modern.black {
+    background: #131b31;
+    color: #ffffff;
+}
+
+.btn.btn-modern.black span {
+    background: #1f2a48;
+    color: #ffffff;
+}
+
+.btn.btn-modern.black:hover,
+.btn.btn-modern.black:focus {
+    background: #da0b4e;
+    color: #ffffff;
+}
+
+.btn.btn-modern.black:hover span,
+.btn.btn-modern.black:focus span {
+    background: #ffffff;
+    color: #da0b4e;
+}
+
+.theme-cl {
+    color: #da0b4e;
+}
+
+.theme-bg {
+    background: #da0b4e;
+}
+
+.sec-heading {
+    margin-bottom: 2rem;
+}
+
+.sec-heading.lg {
+    margin-bottom: 30px;
+}
+
+.sec-heading.center {
+    text-align: center;
+}
+
+.sec-heading h2,
+.sec-heading p {
+    margin-bottom: 5px;
+}
+
+.sec-heading.light h2,
+.sec-heading.light p {
+    color: #ffffff;
+}
+
+.color-heading .sec-heading h2 {
+    color: #D70040;
+}
+
+.sec-heading p {
+    margin-bottom: 0;
+    line-height: 1.2;
+}
+
+.sec-heading-flex {
+    display: flex;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    align-items: center;
+    position: relative;
+}
+
+.sec-heading-flex-one {
+    flex: 1;
+}
+
+.sec-heading-flex-one h2 {
+    margin-bottom: 0;
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+}
