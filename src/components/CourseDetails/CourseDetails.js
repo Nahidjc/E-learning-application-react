@@ -5,6 +5,7 @@ import ReactLoading from "react-loading";
 import Overview from "../Overview/Overview";
 import MentorCourse from "../MentorCourse/MentorCourse";
 import { CircularProgress } from "@mui/material";
+import { Box } from "@mui/system";
 const CourseDetails = () => {
     const { id } = useParams();
     const [loading, setLoading] = useState(false);
@@ -39,7 +40,10 @@ const CourseDetails = () => {
     return (
         <div className="container p-5">
 
-            {loading ? <MentorCourse find={find}></MentorCourse> : <CircularProgress />
+            {loading ? <MentorCourse find={find}></MentorCourse> : <Box sx={{ display: 'flex' }}>   <div className="m-auto"> <CircularProgress /></div>
+
+            </Box>
+
 
             }
 
